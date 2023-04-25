@@ -23,6 +23,6 @@ jobs:
       run: javac src/Main.java
 #       Para executar
     - name: Rodando o Programa
-      run: 
+      run: |
         cd src
         java -cp . Main
